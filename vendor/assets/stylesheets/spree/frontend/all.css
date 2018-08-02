@@ -5,8 +5,8 @@
  *
  /**= require spree/frontend*/
 
- /**= require_self*/
- /**= require_tree .*/
+/**= require_self*/
+/**= require_tree .*/
 
 /*@import "bootstrap";*/
 body{
@@ -23,12 +23,12 @@ body >.container {
 }
 
 #spree-header #header > #container{
-margin: 0;
+    margin: 0;
 
 }
 
 #spree-header{
-/*border-bottom-style: groove;*/
+    /*border-bottom-style: groove;*/
     box-shadow: 0 2px #BBBBBB;
     padding-top: 0 !important;
     margin-bottom: 0
