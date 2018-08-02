@@ -11,4 +11,17 @@
 
 //= require_tree .
 //= require spree/frontend/spree_auth
-//= require spree/frontend/spree_globalize
+
+//load gmaps
+$(document).ready(() => {
+    var map = new GMaps({
+        div: '#map',
+        lat: -12.043333,
+        lng: -77.028333
+    });
+    map.addMarker({
+        lat: -12.043333,
+        lng: -77.028333,
+        title: 'Lima'
+    })
+});
